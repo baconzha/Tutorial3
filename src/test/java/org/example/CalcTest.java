@@ -10,8 +10,7 @@ public class CalcTest {
     void testAddition() {
         assertEquals(4, c.add(2,2));
     }
-    @Test
-    public void testSubtraction() {
-        int a=1;
+    public int subtract(int a, int b) {
+        return a - b;
     }
 }
