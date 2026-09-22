@@ -11,6 +11,6 @@ public class CalcTest {
         assertEquals(4, c.add(2,2));
     }
     public int subtract(int a, int b) {
-        return a - b;
+        return a*b;
     }
 }
